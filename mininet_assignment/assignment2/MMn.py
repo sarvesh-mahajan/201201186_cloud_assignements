@@ -4,7 +4,7 @@ from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 
 class SingleSwitchTopo(Topo):
-        '''Single switch connected to n hosts.'''
+       
 	
         def build(self,x=2,y=2):
 
@@ -24,7 +24,7 @@ class SingleSwitchTopo(Topo):
 
 
 	       
-            # Python's range(N) generates 0..N-1
+            
 	    prev_even=''
 	    prev_odd=''
 	    hosts=[]
